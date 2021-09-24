@@ -1,4 +1,4 @@
 x = int(input())
 
 x = x*5
-print(x)
+print(len(str(x)))
