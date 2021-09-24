@@ -1,4 +1,4 @@
-x = input("test")
-y = input("test")
+x = int(input("test"))
+y = int(input("test"))
 
 print(x+y)
