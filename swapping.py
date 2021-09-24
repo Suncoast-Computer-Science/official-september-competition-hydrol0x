@@ -1,10 +1,11 @@
 x = int(input())
+
 for i in range(x):
-  str1 = str(input()) 
+  string = str(input()) 
+  
+  first = string[0]
+  last = string [-1]
+  middle = string[1:-1] 
 
-  last = str1[-1] 
-  first = str1[0]
-
-  str1.replace(last, first)
-  str1.replace(first, last)
-  print(str1)
+  string = last + middle + first
+  print(string)
