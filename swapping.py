@@ -1,7 +1,11 @@
 str1 = str(input())
 
-output = []
-for i in range(1, len(str)):
-  for j in str1:
-    output.append(j[-i])
+last = str1[-1] 
+first = str1[0]
+
+str1.pop(0)
+str1.pop(-1)
+
+output = str1.append(first)
+output = output.insert(0, last)
 print(output)
