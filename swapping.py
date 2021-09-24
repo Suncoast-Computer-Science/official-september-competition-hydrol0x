@@ -1,5 +1,5 @@
 str1 = str(input())
-
+str1 = str1.split(" ")
 last = str1[-1] 
 first = str1[0]
 
