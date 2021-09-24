@@ -7,4 +7,4 @@ for i in range(x):
 
   str1.replace(last, first)
   str1.replace(first, last)
-  print(output)
+  print(str1)
